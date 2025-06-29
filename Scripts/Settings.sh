@@ -31,10 +31,3 @@ echo "CONFIG_PACKAGE_luci-app-$WRT_THEME-config=y" >> ./.config
 if [ -n "$WRT_PACKAGE" ]; then
 	echo -e "$WRT_PACKAGE" >> ./.config
 fi
-
-sed -i '/luci-app-eqos/d' ./.config
-sed -i '/luci-app-mtk/d' ./.config
-sed -i '/luci-app-upnp/d' ./.config
-sed -i '/luci-app-wol/d' ./.config
-sed -i '/wifi-profile/d' ./.config
-
