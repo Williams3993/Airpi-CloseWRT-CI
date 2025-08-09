@@ -59,7 +59,7 @@ env:
 jobs:
   core:
     name: ${{inputs.WRT_SOURCE}}
-    runs-on: debian-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Projects
         uses: actions/checkout@main
