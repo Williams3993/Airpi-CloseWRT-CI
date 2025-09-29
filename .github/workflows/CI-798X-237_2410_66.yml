@@ -61,7 +61,7 @@ jobs:
       WRT_THEME: argon
       WRT_NAME: Immortalwrt
       WRT_WIFI: ${{inputs.WIFI}}
-      WRT_IP: 192.168.2.1
+      WRT_IP: 192.168.25.1
       WRT_PW: 无
       WRT_REPO: https://github.com/padavanonly/immortalwrt-mt798x-24.10.git
       WRT_BRANCH: openwrt-24.10-6.6
