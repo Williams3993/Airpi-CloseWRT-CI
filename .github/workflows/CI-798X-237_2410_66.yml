@@ -63,7 +63,7 @@ jobs:
       WRT_WIFI: ${{inputs.WIFI}}
       WRT_IP: 192.168.2.1
       WRT_PW: 无
-      WRT_REPO: https://github.com/padavanonly/immortalwrt-mt798x-24.10.git
+      WRT_REPO: https://github.com/padavanonly/immortalwrt-mt798x-6.6.git
       WRT_BRANCH: openwrt-24.10-6.6
       WRT_PACKAGE: ${{inputs.PACKAGE}}
       WRT_TEST: ${{inputs.TEST}}
